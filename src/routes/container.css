@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  display: inline-block;
+}
+
+.normal {
+  display: table;
+  width: 300px;
+  height: auto;
+}
+
+.header {
+  margin: 10px 0;
+  font-size: large;
+  color: goldenrod;
+  font-family: 'Courier New', Courier, monospace;
+}
+.table {
+  display: inline-block;
+}
+.step {
+  color: red;
+}
+.step:hover {
+  cursor: pointer;
+}

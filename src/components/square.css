@@ -1,0 +1,19 @@
+.square {
+  display: table-cell;
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightgray;
+  padding: 0;
+  font-size: 80px;
+  font: 300;
+  color: black;
+  text-align: center;
+  position: relative;
+}
+
+.squareVal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
