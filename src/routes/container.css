@@ -1,12 +1,12 @@
 .container {
   width: 100%;
-  display: inline-block;
+  height: 400px;
 }
 
 .normal {
   display: table;
-  width: 300px;
-  height: auto;
+  width: 350px;
+  display: inline-block;
 }
 
 .header {
@@ -16,6 +16,9 @@
   font-family: 'Courier New', Courier, monospace;
 }
 .table {
+  margin: 35px;
+  padding: 0;
+  position: absolute;
   display: inline-block;
 }
 .step {

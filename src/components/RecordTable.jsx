@@ -8,8 +8,8 @@ class RecordTable extends Component {
             dataSource={this.props.data} 
             columns={this.props.column} 
             pagination={false}
-            rowKey={(record)=>record.key}
-            bordered={true}
+            rowKey={(record, index)=>index}
+            bordered={false}
             />
         )
     }

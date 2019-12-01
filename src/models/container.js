@@ -5,9 +5,10 @@ export default {
 
   state: {
     playerValue: 'x',// x or o
-    chessArr: new Array(9).fill(null),
     record: [],
-    count: 0
+    step: 0,
+    winner: '',
+    history: ''
   },
 
   subscriptions: {
@@ -23,6 +24,9 @@ export default {
   },
 
   effects: {
+    // *isComplete() {
+
+    // }
     // *fetch({ payload }, { call, put }) {  // eslint-disable-line
     //   yield put({ type: 'save' });
     // },
